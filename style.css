@@ -91,3 +91,35 @@ footer {
   border-radius: 0 0 5px 5px;
   margin-bottom: 10px;
 }
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.faq-toggle {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.faq-answer {
+  margin-top: 10px;
+}
+
