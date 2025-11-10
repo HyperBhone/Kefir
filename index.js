@@ -16,7 +16,7 @@ fetch('faq.json')
       // Separate clickable button
       const toggleBtn = document.createElement('button');
       toggleBtn.className = 'faq-toggle-btn';
-      toggleBtn.textContent = 'Show/Hide';
+      toggleBtn.textContent = 'ဖတ်ရန်';
 
       // Answer div (hidden by default)
       const answerDiv = document.createElement('div');
