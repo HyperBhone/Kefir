@@ -10,7 +10,7 @@ fetch('faq.json')
       question.textContent = item.question;
 
       const toggleBtn = document.createElement('button');
-      toggleBtn.textContent = 'ဖတ်ရန်';
+      toggleBtn.textContent = 'show';
       toggleBtn.classList.add('faq-toggle');
 
       const answer = document.createElement('p');
